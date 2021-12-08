@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ntf-card-component/static/css/main.158ef8c8.chunk.css",
+    "main.js": "/ntf-card-component/static/js/main.91ff183a.chunk.js",
+    "main.js.map": "/ntf-card-component/static/js/main.91ff183a.chunk.js.map",
+    "runtime-main.js": "/ntf-card-component/static/js/runtime-main.04d76bdb.js",
+    "runtime-main.js.map": "/ntf-card-component/static/js/runtime-main.04d76bdb.js.map",
+    "static/js/2.9637d15d.chunk.js": "/ntf-card-component/static/js/2.9637d15d.chunk.js",
+    "static/js/2.9637d15d.chunk.js.map": "/ntf-card-component/static/js/2.9637d15d.chunk.js.map",
+    "index.html": "/ntf-card-component/index.html",
+    "static/css/main.158ef8c8.chunk.css.map": "/ntf-card-component/static/css/main.158ef8c8.chunk.css.map",
+    "static/js/2.9637d15d.chunk.js.LICENSE.txt": "/ntf-card-component/static/js/2.9637d15d.chunk.js.LICENSE.txt",
+    "static/media/clock.991a6522.svg": "/ntf-card-component/static/media/clock.991a6522.svg",
+    "static/media/equ.88bdbc91.jpg": "/ntf-card-component/static/media/equ.88bdbc91.jpg",
+    "static/media/ethereum.5221f332.svg": "/ntf-card-component/static/media/ethereum.5221f332.svg",
+    "static/media/view.fedac551.svg": "/ntf-card-component/static/media/view.fedac551.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04d76bdb.js",
+    "static/js/2.9637d15d.chunk.js",
+    "static/css/main.158ef8c8.chunk.css",
+    "static/js/main.91ff183a.chunk.js"
+  ]
+}
