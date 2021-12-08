@@ -6,13 +6,10 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -23,10 +20,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -36,17 +29,11 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Flexbox
+- SASS
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@3vilBonobo](https://www.frontendmentor.io/profile/3vilBonobo)
+- Twitter - [@3Bonobo](https://twitter.com/3Bonobo)
