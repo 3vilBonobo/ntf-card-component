@@ -1,0 +1,102 @@
+//VARIABLES
+$Soft-Blue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$Very-dark-blue-main: hsl(217, 54%, 11%);
+$Very-dark-blue-card: hsl(216, 50%, 16%);
+$Very-dark-blue-line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background-color: $Very-dark-blue-main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: $Very-dark-blue-card;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 10px;
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .info-container {
+    width: 100%;
+    h1 {
+      color: $White;
+      cursor: pointer;
+    }
+    h1:hover {
+      color: $Cyan;
+    }
+    p {
+      color: $Soft-Blue;
+    }
+  }
+
+  .price-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .ethereum {
+      color: $Cyan;
+    }
+    .time-left {
+      color: $Soft-Blue;
+    }
+  }
+  hr {
+    color: $Very-dark-blue-line;
+    height: 3px;
+  }
+  .creator-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      width: 50px;
+      border: 2px solid $White;
+      border-radius: 50%;
+    }
+    p {
+      color: $Soft-Blue;
+      span {
+        color: $White;
+        cursor: pointer;
+      }
+      span:hover {
+        color: $Cyan;
+      }
+    }
+  }
+}
