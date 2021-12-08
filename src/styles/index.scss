@@ -22,6 +22,13 @@ body {
   justify-content: center;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   background-color: $Very-dark-blue-card;
   position: relative;
@@ -122,4 +129,19 @@ body {
       }
     }
   }
+}
+
+.attribution {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  color: $Soft-Blue;
+}
+.attribution a {
+  color: $White;
+}
+
+.attribution a:hover {
+  color: $Cyan;
 }

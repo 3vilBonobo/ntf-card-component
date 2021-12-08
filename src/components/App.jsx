@@ -2,6 +2,7 @@ import Image from './Image';
 import Info from './Info';
 import Price from './Price';
 import Creator from './Creator';
+import Attribution from './Attribution';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <hr className="line" />
         <Creator />
       </div>
+      <Attribution />
     </div>
   );
 }
