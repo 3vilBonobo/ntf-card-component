@@ -42,11 +42,13 @@ body {
           justify-content: center;
   width: 375px;
   height: 600px;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
 }
 
 .container .image-container {
+  background-color: #00fff7;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,18 +59,36 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  border-radius: 10px;
 }
 
-.container .image-container img {
+.container .image-container .cube {
   width: 100%;
   cursor: pointer;
+  border-radius: 10px;
+}
+
+.container .image-container .eye {
+  position: absolute;
+  z-index: 20;
+  visibility: hidden;
+}
+
+.container .image-container:hover .cube {
+  opacity: 0.5;
+}
+
+.container .image-container:hover .eye {
+  visibility: visible;
 }
 
 .container .info-container {
   width: 100%;
+  margin: 20px 0 0 0;
 }
 
 .container .info-container h1 {
+  font-size: 25px;
   color: white;
   cursor: pointer;
 }
@@ -79,6 +99,8 @@ body {
 
 .container .info-container p {
   color: #8bacda;
+  margin: 20px 0 0 0;
+  width: 90%;
 }
 
 .container .price-container {
@@ -96,6 +118,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 20px 0 0 0;
 }
 
 .container .price-container .ethereum {
@@ -106,9 +129,10 @@ body {
   color: #8bacda;
 }
 
-.container hr {
-  color: #2f415b;
-  height: 3px;
+.container .line {
+  width: 100%;
+  border: 1px solid #2f415b;
+  margin: 20px 0 0 0;
 }
 
 .container .creator-container {
@@ -123,16 +147,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 20px 0 0 0;
 }
 
 .container .creator-container img {
-  width: 50px;
+  width: 40px;
   border: 2px solid white;
   border-radius: 50%;
 }
 
 .container .creator-container p {
   color: #8bacda;
+  margin-left: 20px;
 }
 
 .container .creator-container p span {

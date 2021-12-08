@@ -10,7 +10,7 @@ function App() {
         <Image />
         <Info />
         <Price />
-        <hr />
+        <hr className="line" />
         <Creator />
       </div>
     </div>
